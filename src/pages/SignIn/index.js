@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, View } from 'react-native'
 import { Button, Gap, Header, TextInput } from '../../components'
 
 const SignIn = ({navigation}) => {
@@ -9,7 +9,7 @@ const SignIn = ({navigation}) => {
         <View style={styles.container}>
             <TextInput label="Email" placeholder="enter your Email" />
             <Gap height={16} />
-            <TextInput label="Password" placeholder="enter your password" />
+            <TextInput label="Password" placeholder="enter your password here" />
             <Gap height={24} />
             <Button text="SIGN IN"/>
             <Gap height={12} />
